@@ -7,7 +7,7 @@
   - Joseph Hall and Ben Ramsey
 3. Crypto and Quantum and Post Quantum
   - Jean-Philippe Aumasson
-4. #thingswikfound #omarax: What is it, and why you may care?
+4. \#thingswikfound \#omarax: What is it, and why you may care?
   - Jaime Filson
 5. Static Malware and SMTP Mail Analysis using General Purpose Graphical Processing Units (GPGPU)
   - Rick Wesson
@@ -18,15 +18,19 @@
 8. Keynote
   - Neil Gershenfeld
 
-Saturday, January 16, 2016
-Time  Build It! Belay It! Bring it On!
-0930  Registration Opens
-1000  
-LostPass: Pixel-perfect LastPass Phishing
-Sean Cassidy
 
-Users Are People Too: How to Make Your Tools Not Suck for Humans
-Gillian Andrews and Sara Sinclair Brody
+## BUILD IT!
+
+1. LostPass: Pixel-perfect LastPass Phishing
+  - Sean Cassidy
+
+## BELAY IT!
+
+1. Users Are People Too: How to Make Your Tools Not Suck for Humans
+  - Gillian Andrews and Sara Sinclair Brody
+
+
+## BRING IT ON!
 
 Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System
 Joel Sandin
