@@ -1,33 +1,22 @@
 # Schedule
 
+## ONE TRACK MIND
 
-Time  One Track Mind
-1200  Registration Opens
-1400  
-Opening Remarks, Rumblings, Ruminations, and Rants
-1530  
-Breaking Bulbs Briskly by Bogus Broadcasts
-Joseph Hall and Ben Ramsey
-1600  
-Crypto and Quantum and Post Quantum
-Jean-Philippe Aumasson
-1630  
-#thingswikfound #omarax: What is it, and why you may care?
-Jaime Filson
-1700  
-Static Malware and SMTP Mail Analysis using General Purpose Graphical Processing Units (GPGPU)
-Rick Wesson
-1730  
-Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots
-Robbie Gallagher
-1800  
-Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data
-Joshua Pitts
-1830  
-Keynote
-Neil Gershenfeld
-2000  Fire Talks
-
+1. Opening Remarks, Rumblings, Ruminations, and Rants
+2. Breaking Bulbs Briskly by Bogus Broadcasts
+  - Joseph Hall and Ben Ramsey
+3. Crypto and Quantum and Post Quantum
+  - Jean-Philippe Aumasson
+4. #thingswikfound #omarax: What is it, and why you may care?
+  - Jaime Filson
+5. Static Malware and SMTP Mail Analysis using General Purpose Graphical Processing Units (GPGPU)
+  - Rick Wesson
+6. Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots
+  - Robbie Gallagher
+7. Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data
+  - Joshua Pitts
+8. Keynote
+  - Neil Gershenfeld
 
 Saturday, January 16, 2016
 Time  Build It! Belay It! Bring it On!
