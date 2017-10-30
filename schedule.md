@@ -4,7 +4,8 @@
 
 1. Opening Remarks, Rumblings, Ruminations, and Rants
 2. Breaking Bulbs Briskly by Bogus Broadcasts
-  - Joseph Hall and Ben Ramsey
+  - Joseph Hall
+  - Ben Ramsey
 3. Crypto and Quantum and Post Quantum
   - Jean-Philippe Aumasson
 4. \#thingswikfound \#omarax: What is it, and why you may care?
@@ -23,29 +24,28 @@
 
 1. LostPass: Pixel-perfect LastPass Phishing
   - Sean Cassidy
+2. Hacking The Wireless World — Software Defined Radio Exploits
+  - Balint Seeber
+3. (P|G)Ohst Exploitation
+  - Carl Vincent
+
 
 ## BELAY IT!
 
 1. Users Are People Too: How to Make Your Tools Not Suck for Humans
-  - Gillian Andrews and Sara Sinclair Brody
-
+  - Gillian Andrews
+  - Sara Sinclair Brody
+2. Software Security by the Numbers
+  - Chris Eng
 
 ## BRING IT ON!
 
-Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System
-Joel Sandin
-1100  
-Hacking The Wireless World — Software Defined Radio Exploits
-Balint Seeber
+1. Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System
+  - Joel Sandin
+2. Online, No One Knows You’re Dead
+  - Andrew Kalat
 
-Software Security by the Numbers
-Chris Eng
 
-Online, No One Knows You’re Dead
-Andrew Kalat
-1200  
-(P|G)Ohst Exploitation
-Carl Vincent
 
 Using the Algebraic Eraser to Secure Low-Power and Passive IoT Devices
 Derek Atkins
