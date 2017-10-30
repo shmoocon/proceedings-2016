@@ -106,7 +106,7 @@
 
 ## CLOSING
 
-1. Closing Plenary: Information Security Programs in Academia
+1. Information Security Programs in Academia
   - Matt Blaze (moderator)
   - Greg Conti
   - Rick Forno
