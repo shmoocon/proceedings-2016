@@ -28,6 +28,8 @@
   - Balint Seeber
 3. (P|G)Ohst Exploitation
   - Carl Vincent
+4. The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack
+  - Stephen Breen
 
 
 ## BELAY IT!
@@ -55,12 +57,6 @@
  - Randy Wheeler
 
 
-
-
-1300  Break
-1400  
-The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack
-Stephen Breen
 
 Speak Security and Enter: Better Ways to Communicate with Non-Technical Users
 Jessy Irwin
