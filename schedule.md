@@ -30,7 +30,20 @@
   - Carl Vincent
 4. The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack
   - Stephen Breen
-
+5. 0wn the Con
+  - The Shmoo Group
+6. OSX Vulnerability Research and Why We Wrote Our Own Debugger
+  - Tyler Bohan
+  - Brandon Edwards
+7. Penetration Testing Custom TLS Stacks
+  - Alex Moneger
+8. Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense
+  - Rob Weiss
+  - John Eberhardt
+9. Be Free, Little GuardBunny!
+  - Kristin Paget
+10. Reverse-Engineering Wireless SCADA Systems
+  - Karl Koscher
 
 ## BELAY IT!
 
@@ -41,7 +54,22 @@
   - Chris Eng
 3. Using the Algebraic Eraser to Secure Low-Power and Passive IoT Devices
   - Derek Atkins
-
+4. Speak Security and Enter: Better Ways to Communicate with Non-Technical Users
+  - Jessy Irwin
+5. AVLeak: Turning Antivirus Emulators Inside Out
+  - Alex Bulazel
+6. No Easy Breach: Challenges and Lessons Learned from an Epic Investigation
+  - Matt Dunwoody
+  - Nick Carr
+7. Attack on Titans: A Survey of New Attacks Against Big Data and Machine Learning
+  - Andrew Ruef
+  - Rock Stevens
+8. Containing an Attack with Linux Containers and AppArmor/SELinux
+  - Jay Beale
+9. My Hash is My Passport: Understanding Web and Mobile Authentication
+  - David Schuetz
+10. Building an Encyclopedia of Malware Configs (to punch miscreants)
+  - Jon Bambenek
 
 ## BRING IT ON!
 
@@ -55,74 +83,31 @@
  - Vincenzo Iozzo
  - Jeff Moss
  - Randy Wheeler
+4. Political Pwnage: The Hacker’s Guide to Cybersecurity Policy
+  - Nick Leiserson
+  - Jen Ellis
+5. LTE Security and Protocol Exploits
+  - Roger Piqueras Jover
+6. This Message Will Self-Destruct in 10 Seconds: Avoiding Bilateral Enucleation
+  - 3AlarmLampscooter
+7. Ask the EFF
+  - Kurt Opsahl
+  - Andrew Crocker
+  - Bill Buddington
+  - Eva Galperin
+8. Making Milware: An Interdisciplinary Tryst
+  - Trey Herr
+  - Eric Armbrust
+9. Resistance is Futile: SDN Assimilating Our Networks
+  - Sarah Rees
+  - Jonathan Medina
+10. Gatekeeper Exposed
+  - Patrick Wardle
 
+## CLOSING
 
-
-Speak Security and Enter: Better Ways to Communicate with Non-Technical Users
-Jessy Irwin
-
-Political Pwnage: The Hacker’s Guide to Cybersecurity Policy
-Nick Leiserson and Jen Ellis
-1500  
-0wn the Con
-The Shmoo Group
-
-AVLeak: Turning Antivirus Emulators Inside Out
-Alex Bulazel
-
-LTE Security and Protocol Exploits
-Roger Piqueras Jover
-1600  
-OSX Vulnerability Research and Why We Wrote Our Own Debugger
-Tyler Bohan and Brandon Edwards
-
-No Easy Breach: Challenges and Lessons Learned from an Epic Investigation
-Matt Dunwoody and Nick Carr
-
-This Message Will Self-Destruct in 10 Seconds: Avoiding Bilateral Enucleation
-3AlarmLampscooter
-1700  
-Penetration Testing Custom TLS Stacks
-Alex Moneger
-
-Attack on Titans: A Survey of New Attacks Against Big Data and Machine Learning
-Andrew Ruef and Rock Stevens
-
-Ask the EFF
-Kurt Opsahl, Andrew Crocker, Bill Buddington, and Eva Galperin
-2100  Saturday Night Party
-Sunday, January 17, 2016
-Time  Build It! Belay It! Bring it On!
-0930  Registration Opens
-1000  
-Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense
-Rob Weiss and John Eberhardt
-
-Containing an Attack with Linux Containers and AppArmor/SELinux
-Jay Beale
-
-Making Milware: An Interdisciplinary Tryst
-Trey Herr and Eric Armbrust
-1100  
-Be Free, Little GuardBunny!
-Kristin Paget
-
-My Hash is My Passport: Understanding Web and Mobile Authentication
-David Schuetz
-
-Resistance is Futile: SDN Assimilating Our Networks
-Sarah Rees and Jonathan Medina
-1200  
-Reverse-Engineering Wireless SCADA Systems
-Karl Koscher
-
-Building an Encyclopedia of Malware Configs (to punch miscreants)
-Jon Bambenek
-
-Gatekeeper Exposed
-Patrick Wardle
-1300  
-Closing Plenary: Information Security Programs in Academia
-Matt Blaze (moderator), Greg Conti, Rick Forno, and Jeff Foster
-1400  
-Closing Remarks
+1. Closing Plenary: Information Security Programs in Academia
+  - Matt Blaze (moderator)
+  - Greg Conti
+  - Rick Forno
+  - Jeff Foster
