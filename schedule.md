@@ -56,7 +56,7 @@
   - Derek Atkins
 4. Speak Security and Enter: Better Ways to Communicate with Non-Technical Users
   - Jessy Irwin
-5. AVLeak: Turning Antivirus Emulators Inside Out
+5. [AVLeak: Turning Antivirus Emulators Inside Out]()
   - Alex Bulazel
 6. No Easy Breach: Challenges and Lessons Learned from an Epic Investigation
   - Matt Dunwoody
