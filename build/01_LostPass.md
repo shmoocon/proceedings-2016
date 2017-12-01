@@ -3,17 +3,7 @@
 
 # Abstract
 
-LastPass holds all of your secrets. Its login prompts and alerts occur within
-the browser window, which attackers can control. When the victim visits the
-target site–which can look completely inconspicuous, such as a news
-website–after a delay a LastPass notification will appear if the user has
-LastPass installed prompting the user to log in because their session has
-expired. The log in screen, which always appears within the browser window, is
-customized for each browser and operating system to appear pixel perfect. This
-sends the user’s credentials to the attacker, and then can be prompted for
-two-factor authentication if required. The attacker can then use the LastPass
-API to remotely download and decrypt all passwords, credit cards, and secure
-notes. The LostPass tool can be downloaded via [Github][github].
+LastPass holds all of your secrets. Its login prompts and alerts occur within the browser window, which attackers can control. When the victim visits the target site–which can look completely inconspicuous, such as a news website–after a delay a LastPass notification will appear if the user has LastPass installed prompting the user to log in because their session has expired. The log in screen, which always appears within the browser window, is customized for each browser and operating system to appear pixel perfect. This sends the user’s credentials to the attacker, and then can be prompted for two-factor authentication if required. The attacker can then use the LastPass API to remotely download and decrypt all passwords, credit cards, and secure notes. The LostPass tool can be downloaded via [Github][github].
 
 # Content
 
