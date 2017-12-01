@@ -15,4 +15,5 @@
    * [Cockroach Analysis](belay/01_cockroach_analysis.md)
 * [BRING IT ON](bring/bring_it_on.md)
    * [Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System](bring/01_Exploiting_Memory_Corruption.md)
+   * [LTE Security and Protocol](bring/02_LTE_Security_and_Protocol_Exploits.md)
 
