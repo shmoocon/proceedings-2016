@@ -44,7 +44,7 @@ We finally note that we expected the bit rate to be 9600 bits/second. However, b
 
 We have made our GNU Radio demodulator available on GitHub[^13]. By observing plaintext ModBus and DNP3 packets, we can monitor aspects of SCADA networks. Furthermore, by relying on the FM capture effect, we may be able to inject our own commands. Obviously we cannot experimentally verify this, but it does not seem difficult.
 
-Utilities have been aware that these links are insecure but may have argued that the risk of attack is low due to their relative obscurity. However, thanks to low-cost software-defined radio systems, over the past few years we’ve seen RF "security" through obscurity vanish for many systems. This work is yet another example of that trend, and one that utilities should take seriously.
+Utilities have been aware that these links are insecure but may have argued that the risk of attack is low due to their relative obscurity. However, thanks to low-cost software-defined radio systems, over the past few years we've seen RF "security" through obscurity vanish for many systems. This work is yet another example of that trend, and one that utilities should take seriously.
 
 # References
 
