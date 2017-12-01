@@ -164,7 +164,7 @@ This code means the data between Mach-O binaries are not checked.  Mach-O binari
 Apple was not expecting this.  Using OSXCollector, no error is returned on this.
 
 
-![Not Checked](07_PKe34L6.png)
+![Not Checked](imgs/07_PKe34L6.png)
 
 
 ### Code Execution
