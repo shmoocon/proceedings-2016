@@ -37,7 +37,7 @@
   - Brandon Edwards
 7. Penetration Testing Custom TLS Stacks
   - Alex Moneger
-8. [Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense](build/08_)
+8. [Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense](build/08_Compressed-Context-Based-Analytics.md)
   - Rob Weiss
   - John Eberhardt
 9. Be Free, Little GuardBunny!
