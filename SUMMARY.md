@@ -12,7 +12,7 @@
    * [Don't Look Now! Malicious Image Spam](otm/03_dont_look_now_malicious_image_spam.md)
    * [Userland Persistence on Mac OS X](otm/04_userland_persistence_on_mac_os_x.md)
 * [BUILD IT](build/build_it.md)
-   * [NSA Playset: USB Tools](build/01_nsa_playset_usb_tools.md)
+   * [P-GOhst Exploitation](build/01_P-GOhst Exploitation.md)
 * [BELAY IT](belay/belay_it.md)
    * [Cockroach Analysis](belay/01_cockroach_analysis.md)
    * [Pratical Machine Learning for Network Security](belay/02_pratical_machine_learning_for_network_security.md)
