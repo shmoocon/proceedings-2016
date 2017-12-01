@@ -3,7 +3,7 @@
 ## ONE TRACK MIND
 
 1. Opening Remarks, Rumblings, Ruminations, and Rants
-2. Breaking Bulbs Briskly by Bogus Broadcasts
+2. [Breaking Bulbs Briskly by Bogus Broadcasts](otm/02_)
   - Joseph Hall
   - Ben Ramsey
 3. Crypto and Quantum and Post Quantum
@@ -12,9 +12,9 @@
   - Jaime Filson
 5. Static Malware and SMTP Mail Analysis using General Purpose Graphical Processing Units (GPGPU)
   - Rick Wesson
-6. Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots
+6. [Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots](otm/06_)
   - Robbie Gallagher
-7. Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data
+7. [Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data](otm/07_)
   - Joshua Pitts
 8. Keynote
   - Neil Gershenfeld
@@ -22,13 +22,13 @@
 
 ## BUILD IT!
 
-1. LostPass: Pixel-perfect LastPass Phishing
+1. [LostPass: Pixel-perfect LastPass Phishing](build/01_)
   - Sean Cassidy
 2. Hacking The Wireless World — Software Defined Radio Exploits
   - Balint Seeber
-3. [(P|G)Ohst Exploitation](build/01_)
+3. [(P|G)Ohst Exploitation](build/03_)
   - Carl Vincent
-4. The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack
+4. [The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack](build/04_)
   - Stephen Breen
 5. 0wn the Con
   - The Shmoo Group
@@ -37,12 +37,12 @@
   - Brandon Edwards
 7. Penetration Testing Custom TLS Stacks
   - Alex Moneger
-8. Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense
+8. [Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense](build/08_)
   - Rob Weiss
   - John Eberhardt
 9. Be Free, Little GuardBunny!
   - Kristin Paget
-10. Reverse-Engineering Wireless SCADA Systems
+10. [Reverse-Engineering Wireless SCADA Systems](build/10_)
   - Karl Koscher
 
 ## BELAY IT!
@@ -56,7 +56,7 @@
   - Derek Atkins
 4. Speak Security and Enter: Better Ways to Communicate with Non-Technical Users
   - Jessy Irwin
-5. [AVLeak: Turning Antivirus Emulators Inside Out]()
+5. [AVLeak: Turning Antivirus Emulators Inside Out](belay/05_)
   - Alex Bulazel
 6. No Easy Breach: Challenges and Lessons Learned from an Epic Investigation
   - Matt Dunwoody
@@ -73,7 +73,7 @@
 
 ## BRING IT ON!
 
-1. Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System
+1. [Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System](bring/01_)
   - Joel Sandin
 2. Online, No One Knows You’re Dead
   - Andrew Kalat
@@ -86,7 +86,7 @@
 4. Political Pwnage: The Hacker’s Guide to Cybersecurity Policy
   - Nick Leiserson
   - Jen Ellis
-5. LTE Security and Protocol Exploits
+5. [LTE Security and Protocol Exploits](bring/05_)
   - Roger Piqueras Jover
 6. This Message Will Self-Destruct in 10 Seconds: Avoiding Bilateral Enucleation
   - 3AlarmLampscooter
@@ -95,7 +95,7 @@
   - Andrew Crocker
   - Bill Buddington
   - Eva Galperin
-8. Making Milware: An Interdisciplinary Tryst
+8. [Making Milware: An Interdisciplinary Tryst](bring/08_)
   - Trey Herr
   - Eric Armbrust
 9. Resistance is Futile: SDN Assimilating Our Networks
