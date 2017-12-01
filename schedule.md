@@ -3,7 +3,7 @@
 ## ONE TRACK MIND
 
 1. Opening Remarks, Rumblings, Ruminations, and Rants
-2. [Breaking Bulbs Briskly by Bogus Broadcasts](otm/02_)
+2. [Breaking Bulbs Briskly by Bogus Broadcasts](otm/02_Breaking_Bulbs_Briskly_by_Bogus_Broadcasts.md)
   - Joseph Hall
   - Ben Ramsey
 3. Crypto and Quantum and Post Quantum
@@ -12,7 +12,7 @@
   - Jaime Filson
 5. Static Malware and SMTP Mail Analysis using General Purpose Graphical Processing Units (GPGPU)
   - Rick Wesson
-6. [Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots](otm/06_)
+6. [Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots](otm/06_Where_do_the_Phishers_live.md)
   - Robbie Gallagher
 7. [Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data](otm/07_)
   - Joshua Pitts
@@ -26,7 +26,7 @@
   - Sean Cassidy
 2. Hacking The Wireless World — Software Defined Radio Exploits
   - Balint Seeber
-3. [(P|G)Ohst Exploitation](build/03_)
+3. [(P|G)Ohst Exploitation](build/03_P-GOhst Exploitation.md)
   - Carl Vincent
 4. [The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack](build/04_)
   - Stephen Breen
@@ -73,7 +73,7 @@
 
 ## BRING IT ON!
 
-1. [Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System](bring/01_)
+1. [Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System](bring/01_Exploiting_Memory_Corruption.md)
   - Joel Sandin
 2. Online, No One Knows You’re Dead
   - Andrew Kalat
@@ -86,7 +86,7 @@
 4. Political Pwnage: The Hacker’s Guide to Cybersecurity Policy
   - Nick Leiserson
   - Jen Ellis
-5. [LTE Security and Protocol Exploits](bring/05_)
+5. [LTE Security and Protocol Exploits](bring/05_LTE_Security_and_Protocol_Exploits.md)
   - Roger Piqueras Jover
 6. This Message Will Self-Destruct in 10 Seconds: Avoiding Bilateral Enucleation
   - 3AlarmLampscooter
@@ -95,7 +95,7 @@
   - Andrew Crocker
   - Bill Buddington
   - Eva Galperin
-8. [Making Milware: An Interdisciplinary Tryst](bring/08_)
+8. [Making Milware: An Interdisciplinary Tryst](bring/08_Making_Milware.md)
   - Trey Herr
   - Eric Armbrust
 9. Resistance is Futile: SDN Assimilating Our Networks
