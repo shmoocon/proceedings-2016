@@ -14,7 +14,7 @@
    * [LostPass: Pixel-perfect LastPass Phishing](build/01_LostPass.md)
    * [P-GOhst Exploitation](build/03_P-GOhst Exploitation.md)
    * [The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack](build/04_)
-   * [Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense](build/08_)
+   * [Compressed Context Based Analytic Results for Use in Computer Vision System for Network Defense](build/08_08_Compressed-Context-Based-Analytics.md)
    * [Reverse-Engineering Wireless SCADA Systems](build/10_Reverse-Engineering-Wireless-SCADA-Systems.md)
 * [BELAY IT](belay/belay_it.md)
    * [AVLeak: Turning Antivirus Emulators Inside Out](belay/05_AVLeak.md)
