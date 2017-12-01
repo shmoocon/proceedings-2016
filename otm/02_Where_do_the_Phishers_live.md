@@ -122,13 +122,13 @@ Several improvements are planned for the Honey-Phish tool to improve the click-t
 
 # References  
 
-[^1]: "419 Eater - The Largest Scambaiting Community on the Planet!" 419 Eater. Accessed Winter 2015. http://www.419eater.com/.  
+[^1] "419 Eater - The Largest Scambaiting Community on the Planet!" 419 Eater. Accessed Winter 2015. http://www.419eater.com/.  
 
-[^2]: Patrick, JMT. "Markov Chains - Part 1." YouTube. January 13, 2010. Accessed Winter, 2015. https://www.youtube.com/watch?v=uvYTGEZQTEs.
+[^2] Patrick, JMT. "Markov Chains - Part 1." YouTube. January 13, 2010. Accessed Winter, 2015. https://www.youtube.com/watch?v=uvYTGEZQTEs.
 
-[^3]: Singer-Vine, Jeremy. Markovify. Computer software. Version 0.2.1. Github - Jsvine / Markovify. January 2, 2015. Accessed Winter 2015. https://github.com/jsvine/markovify.
+[^3] Singer-Vine, Jeremy. Markovify. Computer software. Version 0.2.1. Github - Jsvine / Markovify. January 2, 2015. Accessed Winter 2015. https://github.com/jsvine/markovify.
 
-[^4]: Spirou, Jack. ClientJS. Computer software. Version 0.1.5. Github - Jackspirou / Clientjs. November 1, 2013. Accessed Winter 2015. https://github.com/jackspirou/clientjs/.
+[^4] Spirou, Jack. ClientJS. Computer software. Version 0.1.5. Github - Jackspirou / Clientjs. November 1, 2013. Accessed Winter 2015. https://github.com/jackspirou/clientjs/.
 
 #### Metadata
 Tags: honeypot, phishing, scambaiting, markov-chains, honey-phish
