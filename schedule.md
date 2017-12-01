@@ -22,7 +22,7 @@
 
 ## BUILD IT!
 
-1. [LostPass: Pixel-perfect LastPass Phishing](build/01_)
+1. [LostPass: Pixel-perfect LastPass Phishing](build/01_LostPass.md)
   - Sean Cassidy
 2. Hacking The Wireless World — Software Defined Radio Exploits
   - Balint Seeber
