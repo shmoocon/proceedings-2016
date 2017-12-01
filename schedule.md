@@ -14,7 +14,7 @@
   - Rick Wesson
 6. [Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots](otm/06_Where_do_the_Phishers_live.md)
   - Robbie Gallagher
-7. [Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data](otm/07_)
+7. [Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data](otm/07_Hiding-from-Investigators.md)
   - Joshua Pitts
 8. Keynote
   - Neil Gershenfeld

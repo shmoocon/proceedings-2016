@@ -9,7 +9,7 @@
 * [ONE TRACK MIND](otm/one_track_mind.md)
    * [Breaking Bulbs Briskly by Bogus Broadcasts](otm/02_Breaking_Bulbs_Briskly_by_Bogus_Broadcasts.md)
    * [Where Do the Phishers Live? Collecting Phishers’ Geographic Locations from Automated Honeypots](otm/06_Where_do_the_Phishers_live.md)
-   * [Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data](otm/07_)
+   * [Hiding from the Investigator: Understanding OS X and iOS Code Signing to Hide Data](otm/07_Hiding-from-Investigators.md)
 * [BUILD IT](build/build_it.md)
    * [LostPass: Pixel-perfect LastPass Phishing](build/01_LostPass.md)
    * [P-GOhst Exploitation](build/03_P-GOhst Exploitation.md)
