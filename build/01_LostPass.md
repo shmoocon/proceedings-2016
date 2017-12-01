@@ -38,7 +38,7 @@ Once the victim clicks on the fake banner, direct them to an
 attacker-controlled login page that looks identical to the LastPass one. This
 is the login page for Chrome.
 
-![LostPass's fake login screen](/imgs/lastpass_login.png)
+![LostPass's fake login screen](/imgs/01_lastpass_login.png)
 
 Notice the domain, "chrome-extension.pw". This looks similar to the Chrome
 protocol for real extensions "chrome-extension". There is an [open issue in
