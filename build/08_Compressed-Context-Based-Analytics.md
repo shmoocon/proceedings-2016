@@ -78,7 +78,7 @@ Once we finally got all of this stuff to work, we were able to sensor, ingest, e
 
 We also created a (not very simple) color-coded key to describe what is on the Hilbert curve. Clearly better navigation and annotation are required to make this more easily user accessible.
 
-![Decode](imgs/08_DecodeKey.jpg)
+![Decode](imgs/08_DecodeKey.png)
 
 ## Conclusions
 
