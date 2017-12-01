@@ -31,7 +31,7 @@ We received inspiration for our idea from many sources. Vannevar Bush[^1] noted 
 
 Our approach has been to develop a layered set of tools so that we can quickly re-use them and build new streaming analytics and visual representations.
 
-![Cortextual Architecture Diagram](https://github.com/delphornet/Cortextual/blob/master/DelphorArchitecture.jpg)
+![Cortextual Architecture Diagram](imgs/08_DelphorArchitecture.jpg)
 
 ### Data Collection
 
@@ -74,11 +74,11 @@ Our Github repository for our data visualization is [here.](https://github.com/d
 
 Once we finally got all of this stuff to work, we were able to sensor, ingest, enrich, and visualize network traffic behaviors in real time. We were able to plot multiple analytic "channels" onto a Hilbert Space.
 
-![Hilbert Static](https://github.com/delphornet/Cortextual/blob/master/vlcsnap-2016-01-15-10h40m52s218.png)
+![Hilbert Static](imgs/08_vlcsnap-2016-01-15-10h40m52s218.png)
 
 We also created a (not very simple) color-coded key to describe what is on the Hilbert curve. Clearly better navigation and annotation are required to make this more easily user accessible.
 
-![Decode](https://github.com/delphornet/Cortextual/blob/master/DecodeKey.jpg)
+![Decode](imgs/08_DecodeKey.jpg)
 
 ## Conclusions
 
