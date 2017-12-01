@@ -11,16 +11,12 @@ A few months ago, [LastPass][lastpass] displayed a message on my browser that my
 
 ![LastPass notification](imgs/01_lastpass_notification.png)
 
-Any malicious website could have drawn that notification. Because 
-LastPass trained users to expect notifications in the browser viewport, they 
-would be none the wiser. The LastPass login screen and two-factor prompt are 
-drawn in the viewport as well.
+Any malicious website could have drawn that notification. Because LastPass trained users to expect notifications in the browser viewport, they would be none the wiser. The LastPass login screen and two-factor prompt are drawn in the viewport as well.
 
 ![LastPass login screne](imgs/01_lastpass_login.png)
 ![LastPass two-factor authentication](imgs/01_lastpass_2fa.png)
 
-Since LastPass has an API that can be accessed remotely, an attack materialized
-in my mind.
+Since LastPass has an API that can be accessed remotely, an attack materialized in my mind.
 
 ## The Attack
 
@@ -28,19 +24,13 @@ Here are the steps for LostPass, in order.
 
 ### Visit the malicious site
 
-Get the victim to go to a malicious website that looks benign, or a real
-website that is vulnerable to XSS. This is where we'll deploy lostpass.js.
-Unlike most phishing attacks, users won't be on their guard because this isn't
-supposed to be a secure website. It could be a funny video or image, even.
+Get the victim to go to a malicious website that looks benign, or a real website that is vulnerable to XSS. This is where we'll deploy lostpass.js. Unlike most phishing attacks, users won't be on their guard because this isn't supposed to be a secure website. It could be a funny video or image, even.
 
 ### Check for LastPass and show the notification
 
-If they have LastPass installed, show the login expired notification and log
-the user out of LastPass. LastPass is vulnerable to a logout [CSRF][csrf], so
-any website can log any user out of LastPass. This will make it appear to the
-user that they are truly logged out.
+If they have LastPass installed, show the login expired notification and log the user out of LastPass. LastPass is vulnerable to a logout [CSRF][csrf], so any website can log any user out of LastPass. This will make it appear to the user that they are truly logged out.
 
-![LastPass notification](/imgs/lastpass_notification.png)
+![LastPass notification](/imgs/01_lastpass_notification.png)
 
 ### Direct the victim to the login page
 
@@ -132,51 +122,27 @@ The following HTML logs LastPass users out:
 
 ## Executing the attack
 
-A simple Python script was written to accept requests from the attacking page.
-This integrated with an open source LastPass API implementation called
-[lastpass-python][lastpasspython].
+A simple Python script was written to accept requests from the attacking page. This integrated with an open source LastPass API implementation called [lastpass-python][lastpasspython].
 
-The username and password are sent to the Python script, which then attemps to
-login to LastPass. The API either returns the decrypted vault, or throws an
-exception indicating incorrect password or two-factor authentication needed. If
-two-factor authentication is needed, an HTTP 307 redirect is issued to show the
-user the two-factor prompt. The user then types in their auth code and send
-that back to the attacker. The attacker can then login and decrypt the entire
-vault.
+The username and password are sent to the Python script, which then attemps to login to LastPass. The API either returns the decrypted vault, or throws an exception indicating incorrect password or two-factor authentication needed. If two-factor authentication is needed, an HTTP 307 redirect is issued to show the user the two-factor prompt. The user then types in their auth code and send that back to the attacker. The attacker can then login and decrypt the entire vault.
 
 ### Two-factor Authentication
 
-LastPass had a mitigation in place for this attack: all logins from new IP
-addresses required email approval. However, if two-factor authentication was
-enabled, this was skipped. Therefore, if two-factor authentication was enabled
-on a LastPass user's account, they were more susceptible to this attack than if
-they were not.
+LastPass had a mitigation in place for this attack: all logins from new IP addresses required email approval. However, if two-factor authentication was enabled, this was skipped. Therefore, if two-factor authentication was enabled on a LastPass user's account, they were more susceptible to this attack than if they were not.
 
 ## Previous Work
 
-Vigo and Garcia presented a local attack against LastPass entitled, "[Even the
-LastPass Will be Stolen, Deal with It!][vigo]". Their work is a sophisticated
-client-side attack that relies on bad design choices that LastPass made that
-make it vulnerable to compromised machines.
+Vigo and Garcia presented a local attack against LastPass entitled, "[Even the LastPass Will be Stolen, Deal with It!][vigo]". Their work is a sophisticated client-side attack that relies on bad design choices that LastPass made that make it vulnerable to compromised machines.
 
-This work comes at LastPass from a different angle: you don't have access to a
-LastPass user's machine. Instead, you trick the user into giving you their
-credentials.
+This work comes at LastPass from a different angle: you don't have access to a LastPass user's machine. Instead, you trick the user into giving you their credentials.
 
 ## Conclusions
 
-Phishing a password manager is, for many users, the worst phish possible. All
-of their passwords are gone in an instant. All of their saved credit cards,
-private documents, and more are nabbed by an attacker in one fell swoop.
+Phishing a password manager is, for many users, the worst phish possible. All of their passwords are gone in an instant. All of their saved credit cards, private documents, and more are nabbed by an attacker in one fell swoop.
 
-User experiences must be designed with phishing in mind. Explicit anti-phishing
-measures like choosing a background color make phishing attacks like this much
-more challenging. Browser extensions often draw their widgets in the DOM, which
-makes it easy for attackers to find out which extensions are installed and
-allows them to hijack their normal workflow.
+User experiences must be designed with phishing in mind. Explicit anti-phishing measures like choosing a background color make phishing attacks like this much more challenging. Browser extensions often draw their widgets in the DOM, which makes it easy for attackers to find out which extensions are installed and allows them to hijack their normal workflow.
 
-Other password managers and other browser extensions are likely vulnerable to
-this type of flaw.
+Other password managers and other browser extensions are likely vulnerable to this type of flaw.
 
 #### Metadata
 
