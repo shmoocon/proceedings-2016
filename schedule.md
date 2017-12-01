@@ -28,7 +28,7 @@
   - Balint Seeber
 3. [(P|G)Ohst Exploitation](build/03_P-GOhst Exploitation.md)
   - Carl Vincent
-4. [The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack](build/04_)
+4. [The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack](build/04_Road-to-SYSTEM.md)
   - Stephen Breen
 5. 0wn the Con
   - The Shmoo Group
