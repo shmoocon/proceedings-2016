@@ -30,7 +30,7 @@ A filter can be described by its *impulse response*. This is the signal you get 
 
 ### Duobinary Coding
 
-Duobinary coding is a slight variation on zero-ISI filters. Instead of requiring symbols have zero interference on others, duobinary coding uses *controlled* ISI[^12]. In this case, each symbol interferes with exactly one other symbol. This produces a tri-level signal: a positive sample indicates that the bit is a 1, a negative sample indicates that the bit is a zero, and a sample around zero indicates that the bit is the *opposite* of the previously-received bit. Again, half of the filtering is done by the sender, and half by the receiver. Applying this filter to our received signal dramatically improves our demodulator’s performance.
+Duobinary coding is a slight variation on zero-ISI filters. Instead of requiring symbols have zero interference on others, duobinary coding uses *controlled* ISI[^12]. In this case, each symbol interferes with exactly one other symbol. This produces a tri-level signal: a positive sample indicates that the bit is a 1, a negative sample indicates that the bit is a zero, and a sample around zero indicates that the bit is the *opposite* of the previously-received bit. Again, half of the filtering is done by the sender, and half by the receiver. Applying this filter to our received signal dramatically improves our demodulator's performance.
 
 # Decoding the signal
 
