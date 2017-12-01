@@ -6,19 +6,19 @@ In this work, we reverse-engineer the GE MDS 9710, a legacy RF modem widely depl
 
 # Introduction
 
-With the proliferation of inexpensive software-defined radio hardware, the era of RF “security” through obscurity is over. For example, tools exist to decode pager[^1] and GSM traffic[^2], ACARS[^3] and ADS-B[^4], DMR and P25 digital radios[^5], and even satellite data services[^6]. In this work, we examine the GE MDS 9710, a legacy RF modem still widely deployed in SCADA installations. This modem is particularly interesting because it uses a modulation scheme not typically seen, and as an old design, doesn’t provide any encryption or authentication. Since common SCADA protocols (such as ModBus[^7] and DNP3[^8]) assume a secure physical layer, this means that many SCADA installations are vulnerable to wireless attacks.
+With the proliferation of inexpensive software-defined radio hardware, the era of RF "security" through obscurity is over. For example, tools exist to decode pager[^1] and GSM traffic[^2], ACARS[^3] and ADS-B[^4], DMR and P25 digital radios[^5], and even satellite data services[^6]. In this work, we examine the GE MDS 9710, a legacy RF modem still widely deployed in SCADA installations. This modem is particularly interesting because it uses a modulation scheme not typically seen, and as an old design, doesn’t provide any encryption or authentication. Since common SCADA protocols (such as ModBus[^7] and DNP3[^8]) assume a secure physical layer, this means that many SCADA installations are vulnerable to wireless attacks.
 
 # Getting Started
 
-We began our reverse-engineering process by gathering as much open information as we could. Construction standards documents provided by the utility company (as required by law) identified the radios they use as “MDS Radios.” Comparing GE MDS’s product offerings[^9] with frequencies and bandwidths found in the FCC ULS database for the utility company led us to focus on the MDS 9710 as the probable modem.
+We began our reverse-engineering process by gathering as much open information as we could. Construction standards documents provided by the utility company (as required by law) identified the radios they use as "MDS Radios." Comparing GE MDS’s product offerings[^9] with frequencies and bandwidths found in the FCC ULS database for the utility company led us to focus on the MDS 9710 as the probable modem.
 
 MDS produced a number of radios in this family, operating on different frequencies, in different modes, or with different hardware. While the FCC OET database had relatively little information on most of these variants, we found one model (FCC ID E5M9710-1[^10]) where MDS forgot to request confidentiality for the Theory of Operation and Block Diagram documents that are required for FCC certification.
 
-In the Theory of Operation document, we found that the modem used continuous-phase frequency shift keying with “root-duobinary signal coding.” This coding makes the modulation scheme fairly unique, and as such, there is no support for it in common tools like GNU Radio. To explain “root-duobinary signal coding,” we must first briefly cover some introductory DSP topics and how modems normally operate.
+In the Theory of Operation document, we found that the modem used continuous-phase frequency shift keying with "root-duobinary signal coding." This coding makes the modulation scheme fairly unique, and as such, there is no support for it in common tools like GNU Radio. To explain "root-duobinary signal coding," we must first briefly cover some introductory DSP topics and how modems normally operate.
 
 # Digital Modulation
 
-Modems convey information by *modulating* a carrier wave in some aspect. Modems may modulate the amplitude, frequency, or phase of the carrier wave. A simple example of this is known as “on-off keying” (OOK), sometimes known as “CW” or “continuous wave” transmission, where the amplitude of the carrier is either 0% or 100%. This seems like an easy way to transmit digital bits, but there are problems with this simple approach. One problem is that this modulation scheme uses an infinite amount of bandwidth. 
+Modems convey information by *modulating* a carrier wave in some aspect. Modems may modulate the amplitude, frequency, or phase of the carrier wave. A simple example of this is known as "on-off keying" (OOK), sometimes known as "CW" or "continuous wave" transmission, where the amplitude of the carrier is either 0% or 100%. This seems like an easy way to transmit digital bits, but there are problems with this simple approach. One problem is that this modulation scheme uses an infinite amount of bandwidth. 
 
 ## Bandwidth-Limited Modulation
 
@@ -34,7 +34,7 @@ Duobinary coding is a slight variation on zero-ISI filters. Instead of requiring
 
 # Decoding the signal
 
-The modem frequency-modulates the carrier with the root-duobinary signal. We can recover this signal in GNU Radio by using an FM demodulator followed by a root-duobinary FIR filter. The recovered binary signal clearly has a preamble but otherwise appears random. By using an MDS radio we purchased from eBay, we determined that the radio did not send enough bits to include a packet length or CRC. We also determined that repeated characters did not produce identical bits. This is the result of *scrambling*, which is used to “whiten” the spectrum of the transmitted signal. By searching the DSP firmware for instances of the XOR instruction, we discovered the structure of the linear feedback shift register (LFSR) used for scrambling. 
+The modem frequency-modulates the carrier with the root-duobinary signal. We can recover this signal in GNU Radio by using an FM demodulator followed by a root-duobinary FIR filter. The recovered binary signal clearly has a preamble but otherwise appears random. By using an MDS radio we purchased from eBay, we determined that the radio did not send enough bits to include a packet length or CRC. We also determined that repeated characters did not produce identical bits. This is the result of *scrambling*, which is used to "whiten" the spectrum of the transmitted signal. By searching the DSP firmware for instances of the XOR instruction, we discovered the structure of the linear feedback shift register (LFSR) used for scrambling. 
 
 After descrambling the signal we noticed that each character used nine bits. If the most-significant bit is zero, the following eight bits are treated as a normal byte to pass through. If the most-significant bit is a one, then it is a special out-of-band character. One use of these OOB characters is to indicate the end of a packet.
 
@@ -44,7 +44,7 @@ We finally note that we expected the bit rate to be 9600 bits/second. However, b
 
 We have made our GNU Radio demodulator available on GitHub[^13]. By observing plaintext ModBus and DNP3 packets, we can monitor aspects of SCADA networks. Furthermore, by relying on the FM capture effect, we may be able to inject our own commands. Obviously we cannot experimentally verify this, but it does not seem difficult.
 
-Utilities have been aware that these links are insecure but may have argued that the risk of attack is low due to their relative obscurity. However, thanks to low-cost software-defined radio systems, over the past few years we’ve seen RF “security” through obscurity vanish for many systems. This work is yet another example of that trend, and one that utilities should take seriously.
+Utilities have been aware that these links are insecure but may have argued that the risk of attack is low due to their relative obscurity. However, thanks to low-cost software-defined radio systems, over the past few years we’ve seen RF "security" through obscurity vanish for many systems. This work is yet another example of that trend, and one that utilities should take seriously.
 
 # References
 
