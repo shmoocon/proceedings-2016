@@ -26,7 +26,7 @@
   - Sean Cassidy
 2. Hacking The Wireless World — Software Defined Radio Exploits
   - Balint Seeber
-3. (P|G)Ohst Exploitation
+3. [(P|G)Ohst Exploitation](build/01_)
   - Carl Vincent
 4. The Road to SYSTEM: Recycling Old Vulnerabilities for Unpatched Privilege Escalation and A New Network Attack
   - Stephen Breen
