@@ -7,12 +7,7 @@ LastPass holds all of your secrets. Its login prompts and alerts occur within th
 
 # Content
 
-A few months ago, [LastPass][lastpass] displayed a message on my browser that
-my session had expired and I needed to log in again. I hadn't used LastPass in
-a few hours, and hadn't done anything that would have caused me to be logged
-out. When I went to click the notification, I realized something: it was
-displaying this in the browser viewport. An attacker could have drawn this
-notification.
+A few months ago, [LastPass][lastpass] displayed a message on my browser that my session had expired and I needed to log in again. I hadn't used LastPass in a few hours, and hadn't done anything that would have caused me to be logged out. When I went to click the notification, I realized something: it was displaying this in the browser viewport. An attacker could have drawn this notification.
 
 ![LastPass notification](imgs/01_lastpass_notification.png)
 
