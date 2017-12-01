@@ -14,7 +14,7 @@ For security, the protocol supports application layer encryption using AES-128. 
 We set out to evaluate the security of Z-Wave by searching for available tools and found short list of 3 (OpenZWave [^2], Z-Force[^3], Scapy-radio [^4]), none of which offered the ability to sniff and inject arbitrary Z-Wave frames. However, Scapy-radio did provide an open-source framework from which we could build upon. EZ-Wave is that extension and is designed to enable Z-Wave network reconnaissance. The EZ-Wave toolset consists of three tools: *ezstumbler*, *ezrecon*, and *ezfingerprint*. *ezstumbler* offers a active and passive scanner for identifying and enumerating the target network by abusing compulsory acknowledgements. Secondly, *ezrecon* abuses the lack of source authentication to interrogate a target Z-Wave device for information including manufacturer and product name, software versions, supported device functionality, current device state, and current configuration settings. It is important to note that if the target device happens to support encryption and is configured to use it, *ezrecon* is unable to solicit the device's current state and configurations setting; however, everything else is still fair game. Finally, *ezfingerprint* determines the embedded Z-Wave module generation by manipulating the physical layer preamble to exploit differences in transceiver design. The figure below depicts the (left) output of *ezstumbler* when conducting a passive and active scan (left) and the output of *ezrecon* after interrogating an Aeotec LED Bulb (right).
 
 ![Mean Time to Industrial Bulb Failure](imgs/01_output.png)
-Figure 1: (Left) *ezstumbler* output following passive and active scanning. (Right) *ezrecon* output from interrogating an Aeotec LED Bulb."
+Figure 1: (Left) *ezstumbler* output following passive and active scanning. (Right) *ezrecon* output from interrogating an Aeotec LED Bulb.
 
 While EZ-Wave is designed for reconnaissance, controlling Z-Wave devices is as simple as changing 1 byte of the application layer payload. Naturally, once you have unauthorized control of a device the next logical step is to abuse that access until something breaks.
 
@@ -25,7 +25,8 @@ Previous research published in the Journal of Industrial Technology [^5] examine
 
 The figure below illustrates the mean time to failure for 3 tested cycle rates, each with a 95% confidence interval. The data demonstrate that cycling the power at a rate of 1 second on / 3 seconds off results in a mean time to failure of under 3 hours. This allows for a scenario in which an attacker could break the industrial fluorescent bulbs in an entire office building or warehouse with automated lighting control outside of business hours when no one is present. This type of attack could cause several hundreds to thousands of dollars in damage plus a loss in productivity and can likely be repeated several times before the victim has any clue why they are replacing all their bulbs after every weekend.
 
-![Mean Time to Industrial Bulb Failure](imgs/01_mttf.png "Figure 1: Mean Time to Failure")
+![Mean Time to Industrial Bulb Failure](imgs/01_mttf.png)
+Figure 1: Mean Time to Failure
 
 While we used Z-Wave devices to build the test automation network, this type of attack is possible against any automation network, wired or wireless, in which the attacker has the ability to control devices.
 

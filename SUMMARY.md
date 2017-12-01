@@ -13,5 +13,5 @@
 * [BELAY IT](belay/belay_it.md)
    * [Cockroach Analysis](belay/01_cockroach_analysis.md)
 * [BRING IT ON](bring/bring_it_on.md)
-   * [2014 Analysis of POS Malware](bring/01_2014_analysis_of_pos_malware.md)
+   * [Exploiting Memory Corruption Vulnerabilities on the FreeRTOS Operating System](bring/01_Exploiting_Memory_Corruption.md)
 
