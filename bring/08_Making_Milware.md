@@ -32,11 +32,6 @@ Milware also reverses the traditional hierarchy of information security, where d
 
 Measuring the sophistication of malicious software is challenging. However, the potential value of such an index across multiple disciplines and for the policy community is substantial. This is a first cut at developing such an index and demonstrating that political and computer science can play nice together. With increasing frequency of use and capability, state-authored code presents a challenge to the existing information security research and policy paradigm. Better understanding the threat and the larger implications of this trend can help drive a more complete and informed response.
 
-<<<<<<< HEAD
-=======
-Remove me later
->>>>>>> a4d209a17da3a95bf7dfe7771c6109843bf7fdb8
-
 ## References
 
 \[1\] Seth Hardy, Masashi Crete-Nishihata, Katharine Kleemola, and Adam Senft. Targeted threat index: Characterizing and quantifying politically-motivated targeted malware. In This paper is included in the Proceedings of the 23rd USENIX Security Symposium., pages 527-541, August 2014.
