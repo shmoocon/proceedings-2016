@@ -156,7 +156,6 @@ http://static.usenix.org/event/woot09/tech/full_papers/paleari.pdf
 
 Tags: antivirus, malware, emulation
 
-**Primary Author Name**: Alexei Bulazel
-
-**Primary Author Affiliation**: Rensselaer Polytechnic Institute
+* **Primary Author Name**: Alexei Bulazel
+* **Primary Author Affiliation**: Rensselaer Polytechnic Institute
 

@@ -66,6 +66,6 @@ Utilities have been aware that these links are insecure but may have argued that
 
 Tags: RF, DSP, SCADA, wireless, reverse engineering
 
-**Primary Author Name**: Karl Koscher
-**Primary Author Affiliation**: UC San Diego
-**Primary Author Email**: supersat@cs.ucsd.edu
+* **Primary Author Name**: Karl Koscher
+* **Primary Author Affiliation**: UC San Diego
+* **Primary Author Email**: supersat@cs.ucsd.edu

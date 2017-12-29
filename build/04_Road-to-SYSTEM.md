@@ -150,6 +150,6 @@ Those interested in trying this out themselves or building upon it can find all 
 
 Tags: Windows, Privilege Escalation, Potato, NBNS Spoofing, NTLM Relay, WPAD spoofing
 
-**Primary Author Name**: Stephen Breen
-**Primary Author Affiliation**: FoxGlove Security
-**Primary Author Email**: stephen.breen@nttcomsecurity.com
+* **Primary Author Name**: Stephen Breen
+* **Primary Author Affiliation**: FoxGlove Security
+* **Primary Author Email**: stephen.breen@nttcomsecurity.com

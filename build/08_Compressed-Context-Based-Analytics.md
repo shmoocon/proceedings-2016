@@ -114,12 +114,12 @@ Our goal moving forward is to open source as much of our work as possible and se
 
 Tags: (comma delimited)
 
-**Primary Author Name**: Robert Weiss
-**Primary Author Affiliation**: G2 Inc.
-**Primary Author Email**: rob.weiss@g2-inc.com
-**Additional Author Name**: John Eberhardt
-**Additional Author Affiliation**: Adjunct Professor [George Mason University](https://www2.gmu.edu/); Partner, 3E Services 
-**Additional Author Email**: john@delphor.com
+* **Primary Author Name**: Robert Weiss
+* **Primary Author Affiliation**: G2 Inc.
+* **Primary Author Email**: rob.weiss@g2-inc.com
+* **Additional Author Name**: John Eberhardt
+* **Additional Author Affiliation**: Adjunct Professor [George Mason University](https://www2.gmu.edu/); Partner, 3E Services 
+* **Additional Author Email**: john@delphor.com
 
 
 

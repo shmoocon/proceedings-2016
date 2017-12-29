@@ -53,7 +53,7 @@ the Penetration Testing Community." Presented at Blackhat USA, Las Vegas, July
 
 Tags: Z-Wave, HackRF, Wireless Sensor Networks, Automation
 
-**Primary Author Name**: Joseph Hall  
-**Primary Author Email**: ezwave.info@gmail.com  
-**Additional Author Name**: Benjamin Ramsey  
+* **Primary Author Name**: Joseph Hall  
+* **Primary Author Email**: ezwave.info@gmail.com  
+* **Additional Author Name**: Benjamin Ramsey  
   

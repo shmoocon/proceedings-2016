@@ -133,6 +133,6 @@ Several improvements are planned for the Honey-Phish tool to improve the click-t
 #### Metadata
 Tags: honeypot, phishing, scambaiting, markov-chains, honey-phish
 
-**Primary Author Name**: Robbie Gallagher
-**Primary Author Affiliation**: Atlassian
-**Primary Author Email**: rob@rothga.com
+* **Primary Author Name**: Robbie Gallagher
+* **Primary Author Affiliation**: Atlassian
+* **Primary Author Email**: rob@rothga.com

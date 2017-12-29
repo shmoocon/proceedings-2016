@@ -148,14 +148,14 @@ Other password managers and other browser extensions are likely vulnerable to th
 
 Tags: phishing,passwords,web,lastpass
 
-**Primary Author Name**: Sean Cassidy
-**Primary Author Affiliation**: Praesidio
-**Primary Author Email**: sean@seancassidy.me 
-**Primary Author Twitter**: @sean_a_cassidy
+* **Primary Author Name**: Sean Cassidy
+* **Primary Author Affiliation**: Praesidio
+* **Primary Author Email**: sean@seancassidy.me 
+* **Primary Author Twitter**: @sean_a_cassidy
 
-[lastpass]: https://en.wikipedia.org/wiki/LastPass
-[github]: https://github.com/cxxr/lostpass
-[vigo]: http://www.martinvigo.com/even-the-lastpass-will-be-stolen-deal-with-it/
-[chromebug]: https://code.google.com/p/chromium/issues/detail?id=453093
-[csrf]: https://en.wikipedia.org/wiki/Cross-site_request_forgery
-[lastpasspython]: https://github.com/konomae/lastpass-python
+* [lastpass]: https://en.wikipedia.org/wiki/LastPass
+* [github]: https://github.com/cxxr/lostpass
+* [vigo]: http://www.martinvigo.com/even-the-lastpass-will-be-stolen-deal-with-it/
+* [chromebug]: https://code.google.com/p/chromium/issues/detail?id=453093
+* [csrf]: https://en.wikipedia.org/wiki/Cross-site_request_forgery
+* [lastpasspython]: https://github.com/konomae/lastpass-python

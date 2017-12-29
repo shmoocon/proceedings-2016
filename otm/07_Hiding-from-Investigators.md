@@ -236,6 +236,6 @@ Happy Hunting!
 
 Tags: forensics, anti-forensics, Apple, OS X, iOS, codesigning
 
-**Primary Author Name**: Josh Pitts
-**Primary Author Affiliation**: N/A
-**Primary Author Email**: the.midnite.runr@gmail.com	
+* **Primary Author Name**: Josh Pitts
+* **Primary Author Affiliation**: N/A
+* **Primary Author Email**: the.midnite.runr@gmail.com	
